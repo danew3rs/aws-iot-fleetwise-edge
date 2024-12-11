@@ -1,0 +1,11 @@
+name: Codecov
+
+on:
+  pull_request
+jobs:
+  execute:
+    name: execute
+    runs-on: ubuntu-latest
+  steps:
+    - name: runshell
+      run: echo "Hello World!"
