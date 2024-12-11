@@ -6,6 +6,6 @@ jobs:
   execute:
     name: execute
     runs-on: ubuntu-latest
-  steps:
-    - name: runshell
-      run: echo "Hello World!"
+    steps:
+      - name: runshell
+        run: echo "Hello World!"
